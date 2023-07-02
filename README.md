@@ -14,7 +14,6 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -35,3 +34,35 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vanilla JS
+
+### What I learned
+
+I learned new events in addEventListener, namely dragover, dragstart, dragend and dragenter
+
+### Continued development
+
+In future projects, I want to focus on new and simpler ways to expand each element of the site and on the use of JS and CSS libraries.
+
+### Useful resources
+
+- [YouTube](https://www.youtube.com/watch?v=9HUlUnM3UG8) - This helped me to understand the transfer of elements by dragging
+
+## Author
+
+- Frontend Mentor - [@LoZoCz](https://www.frontendmentor.io/profile/LoZoCz)
