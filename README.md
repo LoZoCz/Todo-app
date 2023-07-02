@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontEnd Solution]([https://www.frontendmentor.io/solutions/todoapp-CQAX6lwb2j])
-- Live Site URL: [Live Site]([https://lozocz.github.io/URL-shortening-API-landing-page/])
+- Solution URL: [FrontEnd Solution](https://www.frontendmentor.io/solutions/todoapp-CQAX6lwb2j)
+- Live Site URL: [Live Site](https://lozocz.github.io/URL-shortening-API-landing-page/)
 
 ## My process
 
