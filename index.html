@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="javascript/index.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/c4587b3804.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <header class="main-head">
+        <h1 class="main-title">TODO</h1>
+        <button class="theme-btn btn" data-theme="light">
+          <img src="images/icon-moon.svg" />
+          <img src="images/icon-sun.svg" />
+        </button>
+      </header>
+      <section class="create-task-wrapper">
+        <input type="checkbox" class="task-inp-check" disabled />
+        <input
+          type="text"
+          class="task-inp"
+          placeholder="Create a new todo..."
+          maxlength="35"
+        />
+      </section>
+      <section class="todo-n-filter-wrapper">
+        <div class="todo-wrapper"></div>
+        <footer class="main-foot">
+          <p class="left-tasks"><span class="tasks-num">0</span> items left</p>
+          <div class="filter-wrapper">
+            <button class="filter-btn all-filter btn" aria-pressed="true">
+              All
+            </button>
+            <button class="filter-btn active-filter btn" aria-pressed="false">
+              Active
+            </button>
+            <button
+              class="filter-btn completed-filter btn"
+              aria-pressed="false"
+            >
+              Completed
+            </button>
+          </div>
+          <button class="clear-btn btn">Clear completed</button>
+        </footer>
+      </section>
+      <p class="info-para">Drag and drop to reorder list</p>
+    </main>
+  </body>
+</html>
