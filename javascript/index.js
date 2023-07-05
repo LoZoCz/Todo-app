@@ -149,8 +149,8 @@ function filteringTodo(e) {
 
 // Clearing all todo
 function clearAll() {
-  todoWrapper.innerHTML = "";
-  todoIndex = 1;
+  const completedTodo = todoWrapper.querySelectorAll(".completed");
+  completedTodo.forEach((todo) => todo.remove());
   todoLeft();
 }
 
